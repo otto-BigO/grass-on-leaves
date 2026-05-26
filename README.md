@@ -1,23 +1,25 @@
 # Grass on Leaves
 
-A lightweight, **100% server-side** [Fabric](https://fabricmc.net/) mod for **Minecraft 26.1.2** that lets you place grass, ferns, flowers, saplings, and other vegetation directly on top of leaf blocks — something vanilla normally won't allow.
+A server-side Fabric mod for Minecraft 26.1.2 that lets you put grass on leaves.
+
+It also works for ferns, flowers, saplings, and other vegetation that normally can only sit on grass or dirt.
 
 ## Features
 
-- Place any vegetation that normally requires grass/dirt (short grass, ferns, flowers, saplings, etc.) on **leaf blocks**.
-- **Server-side only** — players do **not** need the mod installed on their client. Install it on the server and it just works for everyone.
-- Tiny and dependency-light: a single mixin, no new blocks, items, or config.
+- Place vegetation directly on top of leaf blocks.
+- Server-side only. Players do not need the mod on their client.
+- Tiny: one mixin, no new blocks, items, or config.
 
 ## How it works
 
-The mod mixes into `VegetationBlock.mayPlaceOn` and returns `true` when the block below is tagged `minecraft:leaves`, so the game treats leaf blocks as a valid foundation for vegetation.
+The mod injects into `VegetationBlock.mayPlaceOn` and returns true when the block below is tagged `minecraft:leaves`, so leaf blocks count as a valid foundation for plants.
 
 ## Requirements
 
-- Minecraft **26.1.2**
-- Fabric Loader **0.19.1+**
+- Minecraft 26.1.2
+- Fabric Loader 0.19.1 or newer
 - Fabric API
-- Java **21+**
+- Java 21 or newer
 
 ## Installation
 
