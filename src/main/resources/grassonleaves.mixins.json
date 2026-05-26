@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.grassonleaves.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"VegetationBlockMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

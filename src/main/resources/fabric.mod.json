@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "grassonleaves",
+	"version": "${version}",
+	"name": "Grass on Leaves",
+	"description": "Allows placing grass, ferns, flowers, and other plants on leaf blocks. 100% server-side.",
+	"authors": [
+		"Otto"
+	],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.grassonleaves.GrassOnLeavesMod"
+		]
+	},
+	"mixins": [
+		"grassonleaves.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.1",
+		"minecraft": "~26.1.2",
+		"java": ">=25"
+	}
+}

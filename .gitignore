@@ -1,0 +1,17 @@
+# Gradle
+.gradle/
+build/
+
+# Fabric Loom dev run directory
+run/
+
+# IDE
+.idea/
+*.iml
+.settings/
+.classpath
+.project
+.vscode/
+
+# OS
+.DS_Store
