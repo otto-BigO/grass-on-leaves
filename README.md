@@ -18,15 +18,15 @@ The mod injects into `VegetationBlock.mayPlaceOn` and returns true when the bloc
 
 - Minecraft 26.1.2
 - Fabric Loader 0.19.1 or newer
-- Fabric API
-- Java 21 or newer
+- Java 25 or newer
+
+No Fabric API needed — this mod has zero dependencies beyond Fabric Loader.
 
 ## Installation
 
-1. Download `grass-on-leaves-1.0.0.jar` from the [Releases](https://github.com/otto-BigO/grass-on-leaves/releases) page.
-2. Make sure [Fabric API](https://modrinth.com/mod/fabric-api) is installed.
-3. Drop the jar into your server's `mods/` folder.
-4. Restart the server.
+1. Download `grass-on-leaves-1.0.0.jar` from [Modrinth](https://modrinth.com/mod/grass-on-leaves) (or the Releases page).
+2. Drop the jar into your server's `mods/` folder.
+3. Restart the server.
 
 ## Building from source
 
