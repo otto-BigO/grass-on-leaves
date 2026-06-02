@@ -20,7 +20,7 @@ The mod injects into `VegetationBlock.mayPlaceOn` and returns true when the bloc
 - Fabric Loader 0.19.1 or newer
 - Java 25 or newer
 
-No Fabric API needed — this mod has zero dependencies beyond Fabric Loader.
+No Fabric API needed. This mod has zero dependencies beyond Fabric Loader.
 
 ## Installation
 
